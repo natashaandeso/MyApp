@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #506ca3;
-  min-height: 100vh;
+  background-color: #6f91d6;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,4 +55,33 @@
 }
 .Fourthcomponent{
   background-color: rgb(141, 182, 205);
+}
+.Sixthcomponent{
+  background-color: rgb(210, 136, 136);
+}
+.Fifthcomponent{
+  background-color: rgb(236, 95, 123);
+}
+.Notfound{
+  font-size: 50px;
+  color: rgb(208, 117, 117);
+  font-weight: 900;
+}
+
+nav{
+  background-color: antiquewhite;
+  padding: 20px;
+}
+.navlinks{
+  margin: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: rgb(231, 226, 96);
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.navlinks:hover{
+  background-color: aliceblue;
+  color: grey;
 }
